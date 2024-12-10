@@ -5,7 +5,7 @@ Specifically:
     Downloads are manually initiated when running make build
     Once inputs are downloaded, they are cached locally (saveToCache() and loadFromCache())
         If you suspect your input is corrupted, you can clear the cache by using ```make clean``` in a "Day_" folder
-    The User-Agent header in userAgentHeaderFunction() is set to me since I maintain this tool 
+    The User-Agent header in fetchInput() and fetchSampleInput() is set to me since I maintain this tool 
 
 **Steps**
 1. Compile the library using ```make all```
